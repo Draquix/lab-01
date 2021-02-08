@@ -2,6 +2,7 @@ header {
     width:480px;
     height:75px;
     border:1px solid black;
+    margin:0 auto;
 }
 
 h1 {}
@@ -15,6 +16,7 @@ footer {
 
 section {
     margin:0 auto;
+    display:block;
 }
 
 div {
@@ -33,6 +35,9 @@ div {
 #div-e, #div-f, #div-g, #div-h {
     width:240px;
     height:250px;
+}
+#bottom {
+    margin:0 auto;
 }
 
 

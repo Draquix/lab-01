@@ -5,4 +5,13 @@
 
 .cell-float {
     float:left;
+    margin:0 auto;
+}
+#bottom {
+    display:block;
+    margin:0 auto;
+}
+.clear {
+    float:clear;
+    border:none;
 }
