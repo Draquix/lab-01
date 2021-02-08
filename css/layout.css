@@ -1,12 +1,41 @@
-header {}
+header {
+    width:480px;
+    height:75px;
+    border:1px solid black;
+}
 
 h1 {}
 
-footer{}
+footer {
+    width:480px;
+    height:80px;
+    border:1px solid black;
+    margin:0 auto;
+}
 
-section {}
+section {
+    margin:0 auto;
+}
 
-div {}
+div {
+    margin:0 auto;
+    border:1px solid black;
+}
+
+#div-b {
+    width:480px;
+    height:150px;
+}
+#div-c, #div-d {
+    width:480px;
+    height:125px;
+}
+#div-e, #div-f, #div-g, #div-h {
+    width:240px;
+    height:250px;
+}
+
+
 
 
 @media( min-width: 768px ) {

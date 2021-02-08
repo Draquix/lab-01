@@ -1,0 +1,8 @@
+.split-container {
+    margin: 0 auto;
+    display:inline-block;
+}
+
+.cell-float {
+    float:left;
+}
