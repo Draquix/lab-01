@@ -1,18 +1,63 @@
-header {}
 
-h1 {}
+main{
+    margin:0 auto;
+    width:490px;
+}
+header {
+    float:left;
+    width:480px;
+    height:75px;
+}
+aside {
+    float:left;
+    margin:0 auto;
+    width: 480px;
+    height: 150px;
+}
+div {
+    float:left;
+}
+section {
+    margin:0 auto;
+    display:inline-block;
+}
+footer {
+    float:left;
+    margin:0 auto;
+    width:480px;
+    height:80px;
+}
 
-footer{}
-
-section {}
-
-div {}
 
 
 @media( min-width: 768px ) {
-
-    body {
-        background-color: blue;
+    main{
+        margin:0 auto;
+        width:960px;
     }
-
+    header {
+        width:960px;
+        height:100px;
+    }
+    aside {
+        margin:0 auto;
+        width: 200px;
+        height: 600px;
+        float:left;
+    }
+    div {
+            }
+    section {
+        margin:0 auto;
+        display:inline-block;
+    }
+    footer {
+        margin:0 auto;
+        width:760px;
+        height:150px;
+        float:left;
+        
+    }
+    
+   
 }
