@@ -1,17 +1,25 @@
-.split-container {
-    margin: 0 auto;
-    display:inline-block;
+.tops {
+    width:480px;
+    height: 125px;
 }
-
-.cell-float {
+.bottoms {
+    width:240px;
+    height: 125px; 
     float:left;
-    margin:0 auto;
-}
-#bottom {
-    display:block;
-    margin:0 auto;
 }
 .clear {
     float:clear;
-    border:none;
+}
+@media( min-width: 768px ) {
+.tops {
+    width:380px;
+    height: 200px;
+    float:left;
+}
+.bottoms {
+    width: 190px;
+    height: 250px;
+    float:left;
+}
+
 }
