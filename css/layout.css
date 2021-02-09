@@ -4,21 +4,25 @@ main{
     width:490px;
 }
 header {
+    float:left;
     width:480px;
     height:75px;
 }
 aside {
+    float:left;
     margin:0 auto;
     width: 480px;
     height: 150px;
 }
 div {
+    float:left;
 }
 section {
     margin:0 auto;
     display:inline-block;
 }
 footer {
+    float:left;
     margin:0 auto;
     width:480px;
     height:80px;
@@ -29,10 +33,10 @@ footer {
 @media( min-width: 768px ) {
     main{
         margin:0 auto;
-        width:980px;
+        width:960px;
     }
     header {
-        width:900px;
+        width:960px;
         height:100px;
     }
     aside {
@@ -52,6 +56,7 @@ footer {
         width:760px;
         height:150px;
         float:left;
+        
     }
     
    
