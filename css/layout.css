@@ -6,16 +6,13 @@ main{
 header {
     width:480px;
     height:75px;
-    border: 1px solid red;
 }
 aside {
     margin:0 auto;
     width: 480px;
     height: 150px;
-    border: 1px solid red;
 }
 div {
-    border: 1px solid red;
 }
 section {
     margin:0 auto;
@@ -25,7 +22,6 @@ footer {
     margin:0 auto;
     width:480px;
     height:80px;
-    border: 1px solid red;
 }
 
 
@@ -33,7 +29,7 @@ footer {
 @media( min-width: 768px ) {
     main{
         margin:0 auto;
-        width:1000px;
+        width:980px;
     }
     header {
         width:900px;
@@ -55,7 +51,6 @@ footer {
         margin:0 auto;
         width:760px;
         height:150px;
-        border: 1px solid red;
         float:left;
     }
     

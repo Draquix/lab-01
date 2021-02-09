@@ -1,6 +1,7 @@
 .tops {
     width:480px;
     height: 125px;
+    float:left;
 }
 .bottoms {
     width:240px;
