@@ -1,3 +1,4 @@
+
 header {
     background-color:lightblue;
 }
@@ -27,10 +28,39 @@ footer {
     color:wheat;
 }
 
+@media ( min-width:760px){
+    header {
+        background-color:rgb(63, 115, 133);
+    }
+    aside {
+        background-color: turquoise;
+    }
+    div:nth-of-type(1) {
+        background-color:rgb(121, 90, 50);
+    }
+    div:nth-of-type(2) {
+        background-color:rgb(136, 56, 70);
+    }
+    div:nth-of-type(3) {
+        background-color: rgb(43, 110, 43);
+    }
+    div:nth-of-type(4) {
+        background-color: rgb(126, 121, 121);
+    }
+    div:nth-of-type(5) {
+        background-color: rgb(97, 97, 10);
+    }
+    div:nth-of-type(6) {
+        background-color:rgb(156, 71, 156);
+    }
+    footer {
+        background-color: rgb(49, 32, 32);
+        color:wheat;
+    }
+}
 
 
-
-@media( min-width: 768px ) {
+@media( min-width: 960px ) {
     header {
         background-color: darkblue;
     }
