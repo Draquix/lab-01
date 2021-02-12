@@ -4,8 +4,12 @@ body, html {
     padding:0;
     width: 100%;
     box-sizing: border-box;
+    display:flexbox;
   }
   main {
     margin:0 auto;
     padding:0px;
+  }
+  section {
+    display:flexbox;
   }
